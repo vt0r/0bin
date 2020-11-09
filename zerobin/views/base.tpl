@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>0bin - encrypted pastebin</title>
+  <title>1a4 - encrypted pastebin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <meta name="description" content="0bin is a client-side-encrypted alternative pastebin. You can store code/text/images online for a set period of time and share with the world. Featuring burn after reading, history, clipboard.">
+  <meta name="description" content="1a4 is a client-side-encrypted alternative pastebin. You can store code/text/images online for a set period of time and share with the world. Featuring burn after reading, history, clipboard.">
 
   <link rel="icon" href="/static/img/favicon.ico" />
   <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png" />
@@ -26,8 +26,8 @@
   <div id="app" :class="{ 'reader-mode-bg': readerMode}">
 
     <div :class="{'topnav': true, 'reader-mode': readerMode}" @mouseleave="openPreviousPastesMenu =false">
-      <a class="brand" href="/"><span>ø</span>bin<em>.net</em></a>
-      <span class="tagline">"A client side encrypted PasteBin"<br><span>All pastes are AES256 encrypted, we cannot know
+      <a class="brand" href="/"><span>1a4</span><em>.fr</em></a>
+      <span class="tagline">"A client side encrypted PasteBin based on <a href="https://0bin.net">0bin</a>"<br><span>All pastes are AES256 encrypted, we cannot know
           what you paste...</span>
       </span>
 
@@ -115,7 +115,7 @@
       </ul>
 
       %if settings.DISPLAY_COUNTER:
-      <strong>{{ pastes_count }}</strong> pastes øbinned
+      <strong>{{ pastes_count }}</strong> pastes binned
       %end
     </footer>
 

@@ -105,7 +105,6 @@
         <button v-if="support.clipboard" class="btn btn-secondary" @click.prevent="copyBTCAdressToClipboard()">
           {% this.btcCopied ? "Copied :)" : "Copy"  %}
         </button>
-        <a href="https://www.binance.com/en/register?ref=CAWS9NNE" class="btn btn-secondary buy-btc" target="_blank" title="Be cool, Buy Bitcoins!">Buy Bitcoins!</a>
       </div>
     </div>
 
