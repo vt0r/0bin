@@ -27,7 +27,7 @@
 
     <div :class="{'topnav': true, 'reader-mode': readerMode}" @mouseleave="openPreviousPastesMenu =false">
       <a class="brand" href="/"><span>1a4</span><em>.fr</em></a>
-      <span class="tagline">"A client side encrypted PasteBin based on <a href="https://0bin.net">0bin</a>"<br><span>All pastes are AES256 encrypted, we cannot know
+      <span class="tagline">"A client side encrypted PasteBin based on <a href="https://0bin.net" target="_blank">0bin</a>"<br><span>All pastes are AES256 encrypted, we cannot know
           what you paste...</span>
       </span>
 
