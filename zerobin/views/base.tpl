@@ -11,8 +11,6 @@
   <meta property="og:description" content="1a4 is a client-side-encrypted alternative pastebin. You can store code/text/images online for a set period of time and share with the world. Featuring burn after reading, history, clipboard." />
   <meta property="og:type" content="website" />
 
-  <meta property="og:image" itemprop="image" content="https://1a4.fr/static/img/apple-touch-icon.png">
-
   <link rel="icon" href="/static/img/favicon.ico" />
   <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png" />
 
@@ -28,13 +26,6 @@
 </head>
 
 <body>
-
-  <link itemprop="thumbnailUrl" href="https://1a4.fr/static/img/apple-touch-icon.png">
-
-  <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-    <link itemprop="url" href="https://1a4.fr/static/img/apple-touch-icon.png">
-  </span>
-
 
   <div id="app" :class="{ 'reader-mode-bg': readerMode}">
 
