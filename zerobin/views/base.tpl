@@ -29,6 +29,13 @@
 
 <body>
 
+  <link itemprop="thumbnailUrl" href="/static/img/apple-touch-icon.png">
+
+  <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+    <link itemprop="url" href="/static/img/apple-touch-icon.png">
+  </span>
+
+
   <div id="app" :class="{ 'reader-mode-bg': readerMode}">
 
     <div :class="{'topnav': true, 'reader-mode': readerMode}" @mouseleave="openPreviousPastesMenu =false">
