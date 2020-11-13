@@ -4,8 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>1a4 - encrypted pastebin</title>
+  <meta property="og:site_name" content="1a4">
+  <meta property="og:title" content="1a4 - encrypted pastebin" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta name="description" content="1a4 is a client-side-encrypted alternative pastebin. You can store code/text/images online for a set period of time and share with the world. Featuring burn after reading, history, clipboard.">
+  <meta property="og:description" content="1a4 is a client-side-encrypted alternative pastebin. You can store code/text/images online for a set period of time and share with the world. Featuring burn after reading, history, clipboard." />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image" itemprop="image" content="/static/img/apple-touch-icon.png">
 
   <link rel="icon" href="/static/img/favicon.ico" />
   <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png" />
