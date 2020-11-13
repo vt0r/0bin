@@ -38,7 +38,7 @@
       @keydown.ctrl.enter="encryptAndSendPaste()"></textarea>
 
     <div class="paste-options">
-      <h6>Optional fields (those are <em>not</em> encrypted):</h6>
+      <h6>Optional fields (these are <em>not</em> encrypted):</h6>
 
       <div class="input-group mb-3">
         <div class="input-group-prepend">
@@ -58,7 +58,7 @@
                   fill="#eee" /></svg></span>
         </div>
         <input type="text" class="form-control paste-btc-tip-address" name="paste-btc-tip-address"
-          placeholder="Put a BTC address to ask for a tip. Leave it empty to let us use our."
+          placeholder="Put a BTC address to ask for a tip. Leave it empty to let us use ours."
           v-model="newPaste.btcTipAddress" maxlength="50">
       </div>
 
@@ -71,7 +71,9 @@
       <select id="expiration" name="expiration" class="custom-select" v-model="newPaste.expiration">
         <option value="burn_after_reading">Burn after reading</option>
         <option selected value="1_day">Expire in 1 day</option>
+        <option value="1_week">Expire in 1 week</option>
         <option value="1_month">Expire in 1 month</option>
+        <option value="1_year">Expire in 1 year</option>
         <option value="never">Never expire</option>
       </select>
       <div class="input-group-append">
