@@ -14,7 +14,7 @@ MENU = (
     # Any link with "mailto:" will be escaped to limit spam, but displayed
     # correctly to the user using JS.
     ("Contact", "mailto:your@email.com"),
-    ("Zerobin Pastebin", "https://www.0bin.net/"),  # Thanks the authors :)
+    ("Zerobin Pastebin", "https://github.com/Tygs/0bin"),  # Thanks the authors :)
     ("How to buy Bitcoin?", "/buy_bitcoin"),  # Thanks the authors :)
 )
 
