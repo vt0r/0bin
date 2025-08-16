@@ -1,7 +1,12 @@
+**WARNING**: *0bin.net is dead and will likely stay that way. We got a surge in CP report and decided to not keep it up. Some trouble has to be expected, and we always had to perform some take down, but this is now too much.*
+
+*The code stays available if you choose to host your own instance.*
+
+
 0bin: a client side encrypted pastebin
 ===========================================
 
-0bin is a pastebin that encrypts the user content in the browsder and can run without a database.
+0bin is a pastebin that encrypts the user content in the browser and can run without a database.
 
 * Try it: `0bin.net <http://0bin.net>`_
 * `Report a bug <https://github.com/sametmax/0bin/issues>`_
